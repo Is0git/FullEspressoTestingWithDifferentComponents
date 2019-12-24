@@ -3,16 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/firstLayout"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/firstActivityText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="FIRST ACTIVITY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAVIGATE"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/firstActivityText"
+        app:layout_constraintStart_toStartOf="@+id/firstActivityText"
+        app:layout_constraintTop_toBottomOf="@+id/firstActivityText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
