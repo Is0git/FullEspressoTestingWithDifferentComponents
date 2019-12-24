@@ -13,7 +13,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4ClassRunner::class)
-class ActivityRule {
+class ActivityRuleTest {
 
     @get: Rule
     var rule = ActivityScenarioRule(MainActivity::class.java)

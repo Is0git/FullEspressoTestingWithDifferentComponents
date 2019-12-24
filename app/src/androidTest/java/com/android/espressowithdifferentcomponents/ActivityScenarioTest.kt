@@ -13,7 +13,7 @@ import org.junit.runner.RunWith
 import java.util.regex.Pattern.matches
 
 @RunWith(AndroidJUnit4ClassRunner::class)
-class ActivityScenario {
+class ActivityScenarioTest {
 
 
     @Before
